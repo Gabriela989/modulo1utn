@@ -1,3 +1,4 @@
 verduras
 carnes
 pan
+galletitas
