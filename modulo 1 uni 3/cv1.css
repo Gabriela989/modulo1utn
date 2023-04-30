@@ -1,0 +1,40 @@
+h1{
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: yellowgreen;
+    text-align: center;
+    font-size: 60px;
+    border: 48px solid #ff6550;
+}
+p{color: aquamarine; /*comentario en css- color de la tipografia"*/
+    
+
+}
+
+.destacados{
+    color: blue;
+    font-size: x-large;
+}
+
+
+
+
+h2{
+    font-size: 30px;
+}
+h3{ 
+    color: blue;
+    
+}
+
+h4{
+    font-style: oblique;
+    font-weight: bolder;
+    
+
+}
+
+
+
+
+
