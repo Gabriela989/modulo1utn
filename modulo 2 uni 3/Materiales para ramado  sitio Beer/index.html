@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
     <title>Boniambientaciones</title>
     <link rel="preconnet" href="https://fonts.googleapis.com">
     <link rel="preconnet" href="https://fonts.gstatic.com" crossorigin>
@@ -13,24 +12,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="css/boniambientaciones.css">
 
-        
-
 </head>
 <body>
-    <nav class="navbar bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
-        <div class="container-fluid"></div>
-        <nav class="navbar bg-primary" data-bs-theme="dark">
-            <a class="navbar-brand" href="#">Boniambientaciones</a>
-            <button class="navbar-toggler" type="button" 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <nav class="navbar bg-primary" data-bs-theme="dark">
+              <a class="navbar-brand" href="#">Boniambientaciones</a>
+              <button class="navbar-toggler" type="button" 
                 data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" 
-                   aria-controls="navbarSupportedContent" 
-                   aria-expanded="false"aria-label="Toggle navigation">
+                data-bs-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" 
+                aria-expanded="false"aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" 
-            id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 1mb-lg-0">
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#Home">Home</a>
                     </li>
@@ -38,49 +33,30 @@
                         <a class="nav-link" href="#Eventos">Eventos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="# Historia">Historia</a>
-                    </li>
+                        <a class="nav-link" href="#Historia">Historia</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Nosotros">Nosotros</a>
                     </li>
-                    <li class="naw-link" href="#Conocenos">Conocenos</a>
-                    </li>
-                <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">        
-                    <a class="nav-link disabled"></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Conocenos">Conocenos</a>
                     </li>
                 </ul>
-            </div>
+              </div>
         </div>
     </nav>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder= "Enviar"aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Enviar</button>
-                </form>
-            </div>
-        </div>
-    </nav>
+                
     <div class="container-fluid">  
         <div id="home" class="row aling-items-center hero">
             <div class="col-lg-3 offset-lg-2">
                 <p>Bajada</p>
                 <h1>Bodas Soñadas</h1>
                 <p>Hacemos realidad todo lo que soñaste y más...</p>
-                </div>
-    
             </div>
+        </div>
     </div>
     <div class="row my-3">
-        <div id="Eventos" class="col-md-5 offset-md-2 py-3">
+        <div id="Eventos" class="col-md-5 offset-md-2 py-3 scroll_section">
                 <h2>Eventos</h2>
                 <ul class="lista-eventos">
                     <li><a href="#" data-bs-toggle="modal" 
@@ -104,8 +80,8 @@
                             </div>
                         </div>
                     </div>
-            </div>
-            <!-- fin modal -->
+                </div>
+         <!-- fin modal -->
             <div>
              CONTANOS TU EXPERIENCIA
             </div>
@@ -149,9 +125,10 @@
               </div>
             </div>
         </div><!-- cierra lo de contanos tu experiencia-->
-    </div><!-- cierra fila de eventos y contanos tu experiencia --> 
+    </div>
+    <!-- cierra fila de eventos y contanos tu experiencia --> 
     <!-- inicio historia --> 
-    <div id="Historia" class="row aling-items-center py-4">
+    <div id="Historia" class="row aling-items-center py-4 scroll_section">
         <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
             <img src="img/GyL_348.jpg" alt="historia 1" class="img-fluid">
         </div>
@@ -169,7 +146,8 @@
     </div>
     <!-- cierra div con id historia --> 
     <!-- inicia nosotros-->
-    <div class="row row-cols-1 row-cols-md-3 g-3 staff">
+    <h2>Nosotros</h2>
+    <div id="Nosotros" class="row row-cols-1 row-cols-md-3 g-3 staff scroll_section">
         <div class="col">
           <div class="card">
             <img src="img/nosotros03.jpg" class="card-img-top" alt="...">
@@ -200,8 +178,8 @@
     </div>
     <!-- cierra div nosotros--> 
     <!-- inicio mapa + formulario--> 
-    <div id="conocenos" class="row py-4">
-        <div class="col-md-4"offset-md-2>
+    <div id="conocenos" class="row py-4 scroll_section">
+        <div class="col-md-4 offset-md-2">
             <h2>Visitanos</h2>
             <div class="mapa">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.2486791689435!2d-58.96091722485156!3d-34.16555913448959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb7236d3357317%3A0x2ed4190d15dec298!2sGral.%20Belgrano%20469%2C%20Campana%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1688012686402!5m2!1ses!2sar"></iframe>
@@ -229,69 +207,12 @@
               <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
             </form>
-        </div><!-- cierra div con id contactanos-> 
-    <!-- cierra mapa + formulario-> 
-                
-                
+        </div><!-- cierra div con id contactanos->
+    <!-- fin mapa + formulario-->
             
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-     
-     
-     
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
-
-
-
-
-
-
-    
-    
-    
-
-
     <footer>
         <p class="text-center">Diseñado por: Gabriela Nuñez</p>
-   </footer>
+    </footer>
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>  
 
